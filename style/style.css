@@ -1,0 +1,605 @@
+@font-face{
+    font-family: "Harmonia-Bold";
+     src: url("../police/HarmoniaSansProCyr-Bold.otf");
+}
+@font-face{
+    font-family: "Harmonia-Regular";
+    src: url("../police/HarmoniaSansProCyr-Regular.otf");
+}
+@font-face{
+    font-family: "Harmonia-Light";
+    src: url("../police/HarmoniaSansProCyr-Light\ \(1\).otf");
+}
+@font-face{
+    font-family: "Harmonia-Black";
+    src: url("../police/HarmoniaSansProCyr-Black\ \(1\)\ \(1\).otf");
+}
+@font-face{
+    font-family: "Harmonia-SemiBold";
+    src: url("../police/HarmoniaSansProCyr-SemiBd.otf");
+}
+/* padding box rouge 
+artists agrandir
+*/
+
+/* ==========================================================================
+   FIRST PART
+   ========================================================================== */
+.title{
+    font-family: 'Harmonia-Bold';
+    color:rgb(225, 54, 54);
+    text-align:center;
+    font-size:2.5em;
+    font-weight: bold;
+}
+.row.first-part{
+    position: relative;
+    display: flex;
+    justify-content:space-between
+}
+.col-xs-10.subtitle{
+    letter-spacing:1.5px;
+    word-spacing: 3px;
+    margin-left: 10%;
+    font-size:1.6em;
+    font-family: "Harmonia-Regular";
+    margin-right: 10%;
+    text-align:center;
+}
+.box1{
+    height: 320px;
+    background-color: rgb(225, 54, 54);
+    top: 60px;
+    padding: 0 5px 0 5px;
+    margin:  0 10px 0 0px;;
+}  
+.textone{
+    color:white;
+    font-size:1.3em;
+    font-family: "Harmonia-Light";
+    text-align: right;
+    padding:40px;
+}
+.garden{
+    font-family: 'Harmonia-Black';
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom:0px;
+    margin-top:-10px;
+}
+.eden{
+    font-family: 'Harmonia-Black';
+    font-size: 100px;
+    font-weight: bold;
+    margin-top:-50px;
+}
+.invite{
+    font-size: 20px;
+}
+.presenting{
+    font-size:15px;
+    margin-top:60px;
+}
+.artists{
+    font-size: 20px;
+    padding-left:110px;
+    padding-bottom: 20px;
+}
+.box2{
+    position: absolute;
+    height: 320px;
+    background-color:#3CB371;
+    top: 60px;
+    color:white;
+}
+.texttwo{
+    font-family: "Harmonia-Regular";
+    text-align: left;
+    font-size:1.7em;
+    margin-top:5%;
+    margin-left: 10%;
+    margin-right: 20%;
+    padding : 40px;
+}
+.text-date{
+    letter-spacing:1px;
+    font-family: "Harmonia-Regular";
+    text-align: left;
+    font-size:1.1em;
+}
+.text-infos{
+    letter-spacing:1px;
+    margin-top:15px;
+    font-family: "Harmonia-Regular";
+    text-align: left;
+    font-size:0.9em;
+}
+.reservation{
+    display: none
+}
+.text-adress{
+    letter-spacing:1px;
+    font-family: "Harmonia-Regular";
+    text-align: left;
+    font-size:0.8em;
+    margin-top:15px;
+}
+.of{
+    text-align:left;
+    margin-left: 75px;
+    font-size:20px;
+    margin-top:-113px;
+    font-size: 15px;
+    color: rgb(225, 54, 54);
+}
+
+/* ==========================================================================
+   #PICTURES
+   ========================================================================== */
+
+.pic1{
+    position:relative;
+    margin : 20px;
+}
+
+/* ==========================================================================
+   #VIDEO
+   ========================================================================== */
+
+.party{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Harmonia-Bold";
+    margin-top:30px;
+}
+.container_line{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.line_red{
+    width: 36px;
+    height: 3px;
+    margin-top: 5px; 
+    background-color:rgb(225, 54, 54);
+}
+
+.container{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.video{
+    margin-left: 30px;
+    width: 600px;
+    height: 300px;
+}
+.row.second-part{
+    position: relative;
+}
+.col-md-6-xs-8.text{
+    z-index: 1;
+    font-family: "Harmonia-Light";
+    padding:30px;
+    padding-left:35px;
+    position: absolute;
+    right:200px;
+    top:15px;
+    width: 350px;
+    height: 250px;
+    background-color: white;
+}
+.title_of_text{
+    font-size: 25px;
+    font-family: "Harmonia-SemiBold";
+    text-align: center
+}
+.text-line{
+    font-family:"Harmonia-SemiBold";
+    font-size:17px;
+    text-align: center;
+    font-stretch: expanded;
+    letter-spacing:3px;
+}
+.third-part{
+    position: relative;
+}
+.signature_name{
+    font-family: 'Harmonia-Bold';
+    letter-spacing: 2px;
+    color:rgb(225, 54, 54);
+    text-align:center;
+    font-size:2.3em;
+}
+.signature_adress{
+    letter-spacing: 3px;
+    font-family: 'Harmonia-Bold';
+    font-size: 1.5em;
+    padding-left:400px;
+    padding-right: 400px;
+    text-align: center;
+}
+.signature{
+    margin-bottom:60px;
+}
+.title_media{
+position: absolute;
+font-family: 'Harmonia-Regular';
+font-size: 32px;
+opacity: 0.8;
+word-spacing: 4px;
+letter-spacing: 2px;
+left: 200px;
+top:13px;
+}
+.logo{
+    height: 32px;
+    width: 32px;
+    margin:15px;
+    opacity: 0.3;
+}
+.logos{
+    margin-left:800px;
+    display: flex;
+    flex-direction: row;
+
+}
+.media{
+    position: relative;
+  
+}
+
+/* ==========================================================================
+   #FORM
+   ========================================================================== */
+   input {
+    outline: none;
+    margin: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 14px;
+    font-family: inherit;
+  }
+  .input-group {
+    position: relative;
+    margin-bottom: 32px;
+    border-bottom: 1.4px solid #e5e5e5;
+  }
+  
+  .input-icon {
+    position: absolute;
+    font-size: 18px;
+    color: #ccc;
+    right: 8px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .input--style-2 {
+    padding: 9px 0;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .row.row-space{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .row-space {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+.col-lg-4-xs-6{
+    width: -webkit-calc((80% - 120px) / 2);
+    width: -moz-calc((80% - 120px) / 2);
+    width: calc((80% - 120px) / 2);
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.col-10.input-group{
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.registration{
+    padding:80px;
+}
+::-webkit-input-placeholder {
+    font-family: "Harmonia-Regular";
+    letter-spacing: 1px;
+    font-size:19px;
+    color:black;
+    display:inline;
+  }
+  ::-moz-placeholder { 
+    font-family: "Harmonia-Regular";
+    font-size:19px;
+    letter-spacing: 1px;
+    color:black;
+    display:inline;
+  }
+  :-ms-input-placeholder {
+    font-family: "Harmonia-Regular";
+    font-size:19px;
+    letter-spacing: 1px;
+    color:black;
+    display:inline;
+  }
+  :-moz-placeholder { 
+    font-family: "Harmonia-Regular";
+    font-size:19px;
+    color:black;
+    display:inline;
+}
+.col-10.input-group.comments{
+    font-family: "Harmonia-Regular";
+    font-size:19px;
+    color:black;
+}
+.col-2.comment{
+    font-family: "Harmonia-Regular";
+    font-size:19px;
+    color:black;
+    position: relative;
+    margin-left:90px;
+}
+.comments-box{
+    width: 950px;
+    height: 260px;
+    border: 1px solid  #e5e5e5;
+    margin-left:-25px;
+    margin-top:10px;
+}
+.row-space.comments {
+    display:flex;
+    flex-direction: column;
+}
+.p-t-30{
+    display: flex;
+    justify-content: center;
+}
+.btn-send{
+    margin-top: -70px;
+    margin-bottom: 40px;
+    width: 80px;
+    height: 30px;
+}
+.send{
+    width: 80px;
+    height: 30px;
+}
+.star{
+    color:red;
+    font-family: "Harmonia-Regular";
+    font-size:19px;
+    margin-left: -190px;
+}
+.star-fn{
+    color:red;
+    font-family: "Harmonia-Regular";
+    font-size:19px;
+    margin-top: 0px;
+    margin-left: -140px;
+}
+.col-10.input-group.telephone{
+    text-align:center;
+}
+
+/* ==========================================================================
+   MOBILE VERSION
+   ========================================================================== */
+
+@media screen and (max-width: 600px){
+    html,body {
+        
+    }
+    .pic1{
+        width: 100vw;
+        height: 200px;
+    }
+    .pic2{
+        width: 100vw;
+        height: 160px;
+    }
+    .title{
+        margin-top:15px;
+        font-family: "Harmonia-SemiBold";
+        font-size:1.3em;
+        margin-left:40px;
+        margin-right: 40px;
+        letter-spacing: 2px;
+        margin-bottom:20px;
+    }
+    .col-xs-10.col-xs-10.subtitle{
+        font-size:1em;
+       padding-left:10px;
+        padding-right:10px;
+    }
+    .box1{
+        top: 35px;
+        height: 360px;
+        margin:0;
+        padding:0;
+    }
+    .textone{
+        font-size:2em;
+        font-family: "Harmonia-Regular";
+        padding:40px;
+        text-align: right;
+    }
+    .invite{
+        letter-spacing: 2px;
+        font-size: 20px;
+        margin-top:15px;
+    }
+    .garden{
+        font-size: 60px;
+        margin-bottom:-15px;
+        letter-spacing: -2px;
+        
+    }
+    .eden{
+        font-family: 'Harmonia-Black';
+        font-size: 130px;
+        margin-top:-75px;
+        letter-spacing: -10px;
+    }
+    .of{
+        font-size:20px;
+        margin-top:-148px;
+        text-align: left;
+        letter-spacing: 0px;
+        margin-left:12px;
+    }
+    .presenting{
+        font-family: 'Harmonia-Light';
+        font-size:15px;
+        margin-top:80px;
+        letter-spacing: 2px;
+    }
+    .artists{
+        font-family: 'Harmonia-Regular';
+        padding-left:85px;
+        font-size: 20px;
+    }
+    .box2{
+        margin-top:-20px;
+        height: 260px;
+    }
+    .texttwo{
+        font-size:1.2em;
+        margin:5%;
+        padding : 20px;
+        text-align: center;
+    }
+    .text-date{
+        text-align: center;
+        letter-spacing:1px;
+        font-family: "Harmonia-Black";
+        font-size:1.1em;
+        margin-top:5px;
+    }
+    .text-adress{
+        letter-spacing:1px;
+        font-family: "Harmonia-Light";
+        text-align: left;
+        font-size:0.8em;
+        margin-top:15px;
+    }
+    .reservation{
+        display:block;
+        font-size: 15px;
+        font-family: "Harmonia-Regular";
+        margin-top:5px;
+        text-align: left;
+        margin-top:15px;
+    }
+    .party{
+        font-family: "Harmonia-Black";
+        font-size: 22px;
+    }
+    .col-md-8-xs-10 .video{
+        width: 320px;
+        height: 250px;
+        margin-top:-40px;
+    }
+    .row.second-part .col-md-6-xs-8.text{
+        z-index:1;
+        position: absolute;
+        width: 260px;
+        top:180px;
+        height: 120px;
+        left: 90px;
+        font-size: 11px;
+        font-family: "Harmonia-Light";
+        padding:0;
+        text-align:center;
+        box-shadow: 0px 5px 5px rgb(247, 247, 247);
+    }
+    .title_of_text{
+        font-size: 20px !important;
+    }
+    .col-xs-10.text-line{
+        font-family:"Harmonia-SemiBold";
+        font-size:14px;
+        text-align: center;
+        padding-right:15px;
+        padding-left: 15px;
+        letter-spacing:1px;
+    }
+    .col-10.input-group .input--style-2 {
+        margin-left:10px;
+        margin-bottom:5px;
+    }
+    .registration{
+        padding:0px;
+    }
+    .row.row-space.comments .col-2.comment{
+        margin-left:10px;
+    }
+    .col-2.comment .comments-box{
+        width: 360px;
+        height: 120px;
+        margin-left:10px;
+    }
+    .col-10.input-group.phone{
+        margin-left:-10px;
+    }
+    .send{
+        margin-top:80px;
+        width: 110px;
+        height: 40px;
+    }
+    .signature .signature_name{
+        letter-spacing: 1px;
+        text-align:center;
+        font-size:1.3em;
+        margin-top:90px;
+        margin-bottom:-20px;
+        margin-left: 15px;
+    }
+    .signature .signature_adress{
+        letter-spacing: 1px;
+        font-size: 1em;
+        padding:20px;
+        text-align: center;
+    }
+   .media .title_media{
+        position: absolute;
+        font-size: 18px;
+        font-family:"Harmonia-Light";
+        opacity: 0.7;
+        letter-spacing: 0px;
+        left: 80px;
+        top:-15px;
+        bottom: 20px;
+        word-spacing: -1px;
+    }
+    .logos{
+        margin: auto; 
+        margin-bottom: 10px;;  
+        margin-top: 20px;
+    }
+    .p-t-30{
+        margin-bottom: 50px;
+
+    }
+}
